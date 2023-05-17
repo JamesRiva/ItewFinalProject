@@ -1,0 +1,867 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color:#dfe9f5;
+}
+
+.forms-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.login-form {
+    position: fixed;
+    box-sizing:border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:  500px;
+    height: 550px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid white;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 6px;
+
+}
+
+.login {
+    position: relative;
+    text-align: center;
+    line-height: 80px;
+    top: 110px;
+    font-size: 20px;
+}
+
+.login-form h1 {
+    position: relative;
+    top: 100px;
+    font-size: 32px;
+}
+
+.login-form p {
+    position: relative;
+    top: 110px;
+    font-size: 18px;
+}
+
+.login input {
+    box-sizing: border-box;
+    height: 50px;
+    width: 70%;
+    outline: none;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+.login button {
+    box-sizing: border-box;
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.login button:hover {
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+  
+.section {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 145px;
+    width: 1450px;
+    min-height: 800px;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    display: none;
+}
+
+.section .first-part input {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+  }
+
+.section .second-part input {
+    width: 230px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+}
+
+.section .third-part input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+    
+    font-size: 20px;
+    position: relative;
+    top: 145px;
+}
+
+.section .fourth-part input {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 220px;
+    margin-right: 20px;
+}
+
+.section .fifth-part .txtArea {
+    width: 1400px;
+    min-height: 260px;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    resize: none ;
+    position: relative;
+    top: 265px;
+}
+
+.section .fifth-part button {
+    position: fixed;
+    bottom: 30px;
+    font-size: 20px;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    right: 58px;
+    background-color: #1a1919ec;
+    color: white;
+}
+
+#btnSave{
+    position: relative;
+    top: 278px;
+    left: 450px;
+}
+
+.BlotterForm{
+    position: relative;
+    top: 180px;
+}
+
+.txtIncidentDate{
+    margin-top: 20px;
+}
+
+.txtAddress {
+    width: 1100px;
+}
+
+.txtLastName {
+    margin-right: 60px;
+}
+
+.txtFirstName {
+    margin-right: 60px;
+}
+
+.txtSex {
+    margin-right: 31px;
+}
+  
+.section:target {
+    display: block;
+}
+
+.container-form {
+    margin-top: 50px;
+}
+
+.txtSuspectName {
+    margin-right: 66px;
+}
+
+.txtIncidentDate {  
+    margin-right: 66px;
+}
+
+.sidebar {
+    position:fixed;
+    width: 280px;
+    min-height: 100%;
+    background-color: white;
+    justify-content: center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+.sidebar-upper {
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+    position: relative;
+    height: 230px;
+    top: 30px;
+    line-height: 60px;
+}
+
+.user-label {
+    text-align: center;
+    
+}
+
+.icon {
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+.user-button {
+    text-align: center;
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+.btnLogOut {
+    font-size: 16px;
+    width: 98px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btnLogOut:hover {
+    background-color: rgb(83, 83, 83);
+    cursor: pointer;
+}
+
+.btnSignup {
+    font-size: 16px;
+    width: 98px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.nav-list a {
+    display: block;
+    height: 100%;
+    width: 190px;
+    line-height: 75px;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    top: 55px;
+    border-radius: 8px;
+    font-weight: 500;
+    padding-left: 35px;
+}
+
+.nav-list a:hover{
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+table{
+    position: relative;
+    border-collapse: collapse;
+    width: 100%;
+    top: 70px;
+}
+
+.blotter-management {
+    height: 700px; 
+    overflow: auto;
+}
+
+.generateReport-management {
+    height: 700px; 
+    overflow: auto;
+}
+
+th,td {
+    text-align: center; 
+    font-size: 18px;
+}
+
+th{
+    font-weight: 600;
+    border-bottom: 2px solid black;
+}
+
+td{
+    font-weight: 500;
+    height: 30px;
+}
+
+table.table-blotter .tableBody-blotter tr:nth-child(odd) {
+    background: rgb(218, 217, 217);
+}
+
+.tableBody-generateReport tr:nth-child(odd) {
+    background: rgb(218, 217, 217);
+}
+
+.table-blotter th:nth-child(8) {
+    width: 200px;
+}
+
+.table-generateReport th:nth-child(8) {
+    width: 200px;
+}
+
+.table-blotter button{
+    font-size: 15px;
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 65px;
+    height: 30px;
+    background-color: #EEEEEE;
+    margin-right: 8px;
+    font-weight: 500;
+}
+
+.table-generateReport button{
+    font-size: 15px;
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 30px;
+    background-color: #EEEEEE;
+    margin-right: 8px;
+    font-weight: 500;
+}
+
+table button:hover {
+    background-color: #969494;
+    cursor: pointer;
+}
+
+.fifth-part button:hover {
+    background-color: rgba(0, 0, 0, 0.705);
+    cursor: pointer;
+}
+
+#tableBlotterAdress {
+    max-width: 100px;   
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.5rem;
+}
+
+#tableBlotterDescription {
+    max-width: 100px;   
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.5rem;
+}
+
+#reportTableAddress{
+    max-width: 100px;   
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.5rem;
+}
+
+#reportTableDescription{
+    max-width: 100px;   
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.5rem;
+}
+
+#btnCreateBlotterReport{
+    position: fixed;
+    bottom: 30px;
+    font-size: 16px;
+    width: 140px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    right: 58px;
+    background-color: #474747;
+    color: white;
+}
+
+#btnCreateBlotterReport:hover {
+    cursor: pointer;
+}
+
+#btnGenerateReport{
+    position: fixed;
+    bottom: 30px;
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    right: 58px;
+    background-color: #474747;
+    color: white;
+}
+
+#section-generateReport {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 145px;
+    width: 1450px;
+    min-height: 800px;
+    background-color: white;
+    padding: 50px;
+}
+
+#section-generateReport h1 {
+    text-align: center;
+}
+
+#section-generateReport .report-heading {
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+#section-generateReport .report-body {
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#section-generateReport button {
+    position: relative;
+    left: 600px;
+    top: 450px;
+    font-size: 20px;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1a1919ec;
+    color: white;
+}
+
+label, p {
+    display: inline;
+  }
+
+  .register-form {
+    position: fixed;
+    box-sizing:border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:  500px;
+    height: 550px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid white;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 6px;
+
+}
+
+.register {
+    position: relative;
+    text-align: center;
+    line-height: 60px;
+    top: 90px;
+    font-size: 20px;
+}
+
+.register-form h1 {
+    position: relative;
+    top: 60px;
+    font-size: 32px;
+}
+
+.register-form p {
+    position: relative;
+    top: 110px;
+    font-size: 18px;
+}
+
+.register input {
+    box-sizing: border-box;
+    height: 50px;
+    width: 70%;
+    outline: none;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+.register-form button {
+    box-sizing: border-box;
+    width: 80%;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+}
+
+.register button:hover {
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+}
+
+.section #containerResidents{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 145px;
+    width: 1450px;
+    min-height: 800px;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    display: none;
+}
+
+.section #buttons{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 85%;
+    display: flex;
+}
+
+#tableResident table {
+    top: 0px;
+}
+
+.section #buttons #btnInsert{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.section #tableResident{
+    width: 100%;
+    padding: 5px;
+    height: 400px;
+    overflow: auto;
+}
+
+#RegistrationForm, #FullDetailsForm{
+    background: lightblue;
+    width: 40%;
+    height: ;
+    margin-top: 100px;
+    margin-left: 450px;
+    border: 5px solid black;
+}
+
+#divPicture {
+    width: 100%;
+    margin-top: 15px;
+    justify-content: center;
+    align-content: center;
+    border-bottom:3px solid black;
+}
+
+#divPicture #image-preview {
+    border: 2px solid black;
+    margin-left: 30%;
+    width: 40%;
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.file-upload {
+    position: relative;
+    display: inline-block;
+}
+
+.file-upload label {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: darkblue;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.file-upload input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.file-upload label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 208px;
+    width: 256px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#divFullName {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    border-bottom: 3px solid black;
+    }
+
+#lastName, #firstName, #middleName{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 30%;
+    font-size: 16px;
+}
+
+#divbirthGender {
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 55px;
+    border-bottom: 3px solid black;
+}
+
+.birthdate {
+    width: 50%;
+    border-right: 3px solid black ;
+}
+
+.birthdate p{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.birthdate #age{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.birthdate label{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.birthdate input[type='date']{
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+
+.gender{
+    width: 50%;
+}
+
+.gender label{
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.gender label[for="gender"]{
+    padding-left: 15px;
+}
+
+.gender input[type="radio"]{
+    margin-top: 20px;
+}
+
+#divstatus{
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 55px;
+    border-bottom: 3px solid black;
+}
+
+.status{
+    text-align: center;
+    width: 100%;
+}
+
+.status label{
+    font-size: 20px;    
+}
+
+.status input[type="radio"]{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#divaddress{
+    height: 55px;
+    border-bottom: 3px solid black;
+}
+
+#divaddress label{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#divaddress input[type = 'text']{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 83%;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+#divrelcontact{
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 55px;
+    border-bottom: 3px solid black;
+}
+
+.religion{
+    width: 50%;
+}
+
+.religion label{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.religion input[type="text"]{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.contactnum {
+    width: 50%;
+}
+
+.contactnum label{
+    font-size: 20px;
+}
+
+.contactnum input[type="text"]{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 50%;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#divbuttons{
+    display: flex;
+}
+
+#btnBack {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+#btnAddResident, #btnUpdate{
+    position: relative;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 400px;
+    margin-bottom: 10px;
+}
